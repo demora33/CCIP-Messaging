@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Crosschain Data and Token Transfer between Avalanche and Ethereum
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Description
 
-Try running some of the following tasks:
+This project aims to demonstrate the interoperability between the Avalanche and Ethereum blockchains through Chainlink's CCIP protocol. The goal is to transfer data and tokens seamlessly between the two networks, showcasing the potential of crosschain solutions.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+## Features
+
+- **Data Transfer:** Use crosschain technology to securely transmit data between Avalanche and Ethereum.
+- **Token Transfer:** Transfer tokens between Avalanche and Ethereum networks, allowing for crosschain token swaps. Only tokens that are considered in Chainlink's pools in both networks are eligible for transfer.
+
+
+## Technologies Used
+
+- CCIP: Cross-chain interoperability protocol powered by Chainlink.
+- Hardhat: framework for developing and testing smart contracts in EVM.
+
+## Resources
+
+- [CCIP Documentation](https://docs.chain.link/ccip)
+
